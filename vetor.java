@@ -15,7 +15,7 @@ public class vetor {
             for(int j = 0; j < i; j++){
 
                 if (vetor[i] == vetor[j]) {
-                    System.out.println("Digite um número diferente dos anteiores: ");
+                    System.out.println("Digite um número diferente, o numero digitado repetido foi: " + vetor[j]);
                     i--;
                     break;
                 }
